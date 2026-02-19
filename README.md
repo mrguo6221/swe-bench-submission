@@ -2,7 +2,7 @@
 
 ## SWE-bench Verified Results
 
-- **Resolved**: 342 / 500 (**68.4%**)
+- **Resolved**: 343 / 500 (**68.6%**)
 - **Pass@1**: Single attempt per instance
 
 ## System Overview
