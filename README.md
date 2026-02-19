@@ -10,9 +10,8 @@
 ### Model
 - **Model**: Qwen3-Coder-Next (80B parameters)
 - **Quantization**: FP8 (via vLLM)
-- **Inference**: 4x NVIDIA A800 80GB GPUs with tensor parallelism
-- **Throughput**: ~120 tokens/s
-- **Context**: 32,768 tokens
+- **Inference**: 2x NVIDIA RTX 4090 48GB GPUs with tensor parallelism
+- **Context**: 256,000 tokens
 - **Temperature**: 1.0
 
 ### Agent Framework
@@ -23,7 +22,7 @@
 
 ### Infrastructure
 - **Deployment**: Self-hosted on-premise cluster
-- **Load balancing**: 4-container vLLM instances with round-robin
+- **Load balancing**: 4-group vLLM instances with round-robin
 - **Evaluation**: SWE-bench docker-based harness with 46 parallel workers
 
 ## Submission
